@@ -156,3 +156,72 @@ body{
 .square > div > img{
     transform: rotate(315deg);
 }
+.first-section{
+    margin: 80px 0;
+    height: calc(0.75 * 100vh);
+}
+.first-section-content > h2, .second-section-content > h2, .third-section-content > h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 30px 0;
+    padding: 30px;
+}
+.first-section-content > h2, .third-section-content > h2{
+    color: #212020;
+}
+.second-section-content > h2{
+    color: white;
+}
+.first-section-content > h2 > span, .second-section-content > h2 > span, .third-section-content > h2 > span{
+    color: red;
+}
+.section-news{
+    display: flex;
+    justify-content: space-between;
+}
+.news{
+    width: calc((100% / 3) - 20px);
+    /*padding: 50px 0;*/
+}
+.news > h3 {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.news > p {
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+.news > button {
+    margin: 20px 0;
+}
+.second-section {
+    height: calc(0.75 * 100vh);
+    background: #212020;
+}
+.news-secondary{
+    color: rgb(172, 161, 161);
+    text-align: center;
+    width: calc((100% / 4) - 20px);
+}
+.news-secondary > h3{
+    color: rgb(210, 199, 199);
+}
+.news-secondary > img{
+    border-radius: 50%;
+}
+.third-section{
+    height: calc(0.75 * 100vh);
+}
+.news-photo{
+    width: 50%;
+}
+.news-text{
+    width: 50%;
+}
+.news-text > p{
+    padding: 0 0 30px 20px;
+}
